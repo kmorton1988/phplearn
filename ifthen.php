@@ -5,13 +5,21 @@
     <title>Document</title>
 </head>
 <body>
-
 <?php
 
+if (1 + 2 < 4) {
+echo "math works!";
 
+}
+elseif($name = "Steven") {  
+    echo "Hi steven!";
+}
+
+else {
+echo "math is broken";
+}
 
 ?>
-   
     
 </body>
 </html>

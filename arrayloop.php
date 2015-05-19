@@ -7,7 +7,12 @@
 <body>
 
 <?php
+$names = ["kyle", "kelly", "jacob", "melissa", "steven"];
 
+foreach ($names as $name) {
+    
+    echo $name . "<br>";
+}
 
 
 ?>
